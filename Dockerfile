@@ -1,6 +1,6 @@
 FROM centos:7
 
-RUN yum install -y nginx python2 python3 \
+RUN yum install -y tini nginx python2 python3 \
   && mkdir /app
 
 COPY app /app
