@@ -5,5 +5,5 @@ RUN yum install -y python2 \
 
 COPY test.html /app
 
-CMD cd /app && python -m SimpleHTTPServer $PORT
+CMD cd /app && echo "$SOME_VAR" > test2.html && python -m SimpleHTTPServer $PORT
 

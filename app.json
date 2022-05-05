@@ -1,0 +1,12 @@
+{
+    "name": "testweb",
+    "description": "test web container.",
+    "keywords": ["test"],
+    "env": {
+        "SOME_VAR": {
+            "description": "SOME_VAR",
+            "value": "SOME_VALUE"
+        }
+    },
+    "stack": "container"
+}
